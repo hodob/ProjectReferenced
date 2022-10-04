@@ -171,6 +171,7 @@ public class CommDAO {
 			close(ps);
 			close(rs);
 		}
+		System.out.println(articleList+"@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
 		return articleList;
 	}
 	// --------------selectArticleList()---------------

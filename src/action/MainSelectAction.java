@@ -51,7 +51,7 @@ public class MainSelectAction implements Action {
 		
 		forward = new ActionForward();
 		forward.setPath("/index.jsp");
-		
+		System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
 		return forward;
 	}
 
