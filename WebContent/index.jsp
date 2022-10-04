@@ -208,11 +208,11 @@
 
 
 		<div class="row">
-			<%
+ 			<%
 		for(int i=0; i<productList.size(); i++){
 			String[] main = productList.get(i).getMain_img().split("/");
 			String likeCheck = member_id+"/"+productList.get(i).getBasicCode();
-			%>
+			%> 
 			<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item blogBox moreBox">
 				<div class="block2">
 					<div class="block2-pic hov-img0">
